@@ -1,0 +1,49 @@
+body {
+  background-color: #fff9d0;
+  color: #5ab2ff;
+}
+#container {
+  display: flex;
+  flex-flow: column;
+  max-width: 500px;
+  margin: 30% auto;
+}
+fieldset {
+  font-size: 1.2em;
+  border-color: #a0deff;
+  border-radius: 15px;
+}
+#input-container {
+  display: flex;
+  flex-flow: row;
+}
+#input-container input {
+  flex: 1 1 auto;
+  background-color: #caf4ff;
+  border-color: #a0deff;
+  border-radius: 15px;
+  font-size: 1.5em;
+  color: #5ab2ff;
+}
+
+#check-btn {
+  background-color: #5ab2ff;
+  font-size: 1.5em;
+  color: #fff9d0;
+  border-color: #a0deff;
+  border-radius: 15px;
+  margin-left: 1em;
+}
+#result {
+  font-size: 1.5em;
+  margin: 0.4em 0em;
+  background-color: #caf4ff;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+#info {
+  font-size: 1.5em;
+  background-color: #caf4ff;
+  padding: 0.4em;
+  border-radius: 15px;
+}
